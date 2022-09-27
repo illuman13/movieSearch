@@ -1,0 +1,119 @@
+.selected {
+  background-color: white;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+.selectedBtn {
+  color: #1890ff;
+  border-bottom: 1px solid #1890ff;
+}
+.select {
+  width: 108px;
+  height: 55px;
+  margin: 0 auto 1.5rem auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d9d9d9;
+}
+button {
+  background: #fafafa;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+.column {
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  max-width: 49%;
+  margin-bottom: 1.5rem;
+  box-shadow: 6px 6px 17px 1px rgb(202, 201, 201);
+}
+.image {
+  width: 220px;
+  height: 100%;
+  transform: translateX(-15px);
+  /*flex: 2;*/
+}
+.description-container {
+  padding: 10px 0 10px 0;
+  /*flex: 3;*/
+}
+
+.description {
+  margin: 10px 0 3.4rem 0;
+}
+.genre {
+  margin: 0 0.3rem 0.3rem 0;
+}
+.rate {
+  position: absolute;
+  bottom: 0.2rem;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.notFound {
+  position: absolute;
+  left: 38%;
+  font-size: 2rem;
+}
+.rated {
+  position: absolute;
+  right: 9px;
+  top: 9px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 3px solid #e9d100;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.title {
+  margin-right: 30px;
+}
+.rate {
+  /*position: absolute;*/
+}
+@media (max-width: 430px) {
+  .rate {
+    position: initial;
+    margin-bottom: 1rem;
+  }
+  .description {
+    margin: 10px 0 0 0;
+  }
+}
+@media (max-width: 1000px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  .column {
+    position: relative;
+    background-color: #fff;
+    display: block;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+    box-shadow: 6px 6px 17px 1px rgb(202, 201, 201);
+  }
+  .image {
+    float: left;
+    max-width: 110px;
+    max-height: 130px;
+    transform: translateX(-12px);
+    flex: 2;
+  }
+}

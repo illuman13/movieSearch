@@ -1,0 +1,74 @@
+/*button {*/
+/*  background: #fafafa;*/
+/*  border: 1px solid #d9d9d9;*/
+/*  border-radius: 2px;*/
+/*}*/
+/*.column {*/
+/*  position: relative;*/
+/*  background-color: #fff;*/
+/*  !*display: flex;*!*/
+/*  max-width: 48%;*/
+/*  margin-bottom: 1.5rem;*/
+/*  box-shadow: 6px 6px 17px 1px rgb(202, 201, 201);*/
+/*}*/
+/*.image {*/
+/*  width: 190px;*/
+/*  height: 100%;*/
+/*  transform: translateX(-15px);*/
+/*  flex: 2;*/
+/*}*/
+/*.description-container {*/
+/*  padding: 10px;*/
+/*  !*flex: 3;*!*/
+/*}*/
+
+/*.description {*/
+/*  margin: 10px 0 3.5rem 0;*/
+/*}*/
+/*.row {*/
+/*  display: flex;*/
+/*  justify-content: space-between;*/
+/*  width: 85%;*/
+/*  margin: 0 auto;*/
+/*  background-color: #fff;*/
+/*}*/
+/*.notFound {*/
+/*  position: absolute;*/
+/*  left: 38%;*/
+/*  font-size: 2rem;*/
+/*}*/
+/*.rated {*/
+/*  position: absolute;*/
+/*  right: 9px;*/
+/*  top: 9px;*/
+/*  height: 35px;*/
+/*  width: 35px;*/
+/*  border-radius: 50%;*/
+/*  border: 3px solid #e9d100;*/
+/*  font-style: normal;*/
+/*  font-weight: 400;*/
+/*  font-size: 18px;*/
+/*  line-height: 28px;*/
+/*  text-align: center;*/
+/*}*/
+/*.title {*/
+/*  margin-right: 18px;*/
+/*}*/
+/*!*@media screen and (max-width: 1250px) {*!*/
+/*!*  .column {*!*/
+/*!*    min-height: 310px;*!*/
+/*!*    position: relative;*!*/
+/*!*    background-color: #fff;*!*/
+/*!*    display: block;*!*/
+/*!*    max-width: 100%;*!*/
+/*!*    margin-bottom: 1.5rem;*!*/
+/*!*    box-shadow: 6px 6px 17px 1px rgb(202, 201, 201);*!*/
+/*!*  }*!*/
+/*!*  .image {*!*/
+/*!*    float: left;*!*/
+/*!*    max-width: 90px;*!*/
+/*!*    height: 40%;*!*/
+/*!*    transform: translateX(-12px);*!*/
+/*!*    flex: 2;*!*/
+/*!*  }*!*/
+/*!*}*!*/
